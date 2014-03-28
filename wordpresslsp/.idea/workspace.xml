@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3eb4e6f6-ba83-4a0b-a923-7b015af6e9e4" name="Default" comment="" />
+    <ignored path="wordpress.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="wordpress" />
+  </component>
+  <component name="FileEditorManager">
+    <splitter split-orientation="horizontal" split-proportion="0.5">
+      <split-first>
+        <leaf>
+          <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/footer.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="25" column="14" selection-start="922" selection-end="931" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="578">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="functions.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/functions.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="63" column="0" selection-start="3689" selection-end="3689" vertical-scroll-proportion="33.346153" vertical-offset="1938" max-vertical-offset="20043">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="986">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="custom.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/js/custom.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="279" column="49" selection-start="9097" selection-end="9110" vertical-scroll-proportion="-2.7358491" vertical-offset="4598" max-vertical-offset="5321">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/index.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="63" column="8" selection-start="2034" selection-end="2034" vertical-scroll-proportion="-1.3076923" vertical-offset="833" max-vertical-offset="1921">
+                  <folding>
+                    <element signature="e#852#968#0" expanded="false" />
+                    <element signature="e#989#1357#0" expanded="false" />
+                    <element signature="e#3350#5439#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="category.php" pinned="false" current="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/category.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="0" column="12" selection-start="6" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+                  <folding>
+                    <element signature="e#850#980#0" expanded="false" />
+                    <element signature="e#996#1393#0" expanded="false" />
+                    <element signature="e#1408#2322#0" expanded="false" />
+                    <element signature="e#2337#3757#0" expanded="false" />
+                    <element signature="e#3772#6065#0" expanded="false" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/header.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="61" column="29" selection-start="1820" selection-end="1820" vertical-scroll-proportion="-20.73077" vertical-offset="498" max-vertical-offset="1173">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="load-more.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/js/load-more.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="26" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1037">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="category.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/category.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="13" column="4" selection-start="271" selection-end="271" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="782">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="general-template.php" pinned="false" current="true" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="34" column="26" selection-start="793" selection-end="793" vertical-scroll-proportion="0.40194714" vertical-offset="204" max-vertical-offset="41582">
+                  <folding>
+                    <marker date="1390815222058" expanded="true" signature="33825:34013" placeholder="SELECT YEAR(..." />
+                    <marker date="1390815222058" expanded="true" signature="34741:34882" placeholder="SELECT YEAR(..." />
+                    <marker date="1390815222058" expanded="true" signature="35485:35735" placeholder="SELECT YEAR(..." />
+                    <marker date="1390815222058" expanded="true" signature="36566:36810" placeholder="SELECT DISTI..." />
+                    <marker date="1390815222058" expanded="true" signature="38031:38095" placeholder="SELECT * FRO..." />
+                    <marker date="1390815222058" expanded="true" signature="40208:40303" placeholder="SELECT 1 as ..$wpdb-&gt;posts WHERE..." />
+                    <marker date="1390815222058" expanded="true" signature="41522:41736" placeholder="SELECT MONTH..." />
+                    <marker date="1390815222058" expanded="true" signature="41765:41996" placeholder="SELECT MONTH..." />
+                    <marker date="1390815222058" expanded="true" signature="42737:42743" placeholder="..." />
+                    <marker date="1390815222058" expanded="true" signature="43863:43869" placeholder="..." />
+                    <marker date="1390815222058" expanded="true" signature="43936:44171" placeholder="SELECT DISTI..$wpdb-&gt;posts WHERE..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="template.php" pinned="false" current="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/wp-includes/template.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state line="407" column="12" selection-start="10606" selection-end="10606" vertical-scroll-proportion="-13.115385" vertical-offset="6493" max-vertical-offset="7582">
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/themes/supergrid/js/load-more.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/supergrid/js/test.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/supergrid/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/supergrid/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/supergrid/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/supergrid/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/supergrid/category.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentytwelve/category.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/supergrid/js/custom.php" />
+        <option value="$PROJECT_DIR$/wp-includes/template.php" />
+        <option value="$PROJECT_DIR$/wp-includes/general-template.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="64" />
+    <option name="y" value="24" />
+    <option name="width" value="1841" />
+    <option name="height" value="1055" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentytwelve" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wordpress" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="supergrid" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="preferences.sourceCode.PHP" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/wp-content/themes/supergrid" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3eb4e6f6-ba83-4a0b-a923-7b015af6e9e4" name="Default" comment="" />
+      <created>1390698153428</created>
+      <updated>1390698153428</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="64" y="24" width="1841" height="1055" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16042781" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24986088" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/wp-content/themes/supergrid/index.php</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="181" selection-end="181" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/js/custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="242" column="0" selection-start="7712" selection-end="7712" vertical-scroll-proportion="0.0" vertical-offset="4114" max-vertical-offset="5916">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="28" selection-start="42" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="7208">
+          <folding>
+            <element signature="e#852#968#0" expanded="false" />
+            <element signature="e#989#1357#0" expanded="false" />
+            <element signature="e#3350#5439#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="29" selection-start="1820" selection-end="1820" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/js/load-more.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="30" selection-start="212" selection-end="212" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="561">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/js/load-more.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="0" selection-start="730" selection-end="730" vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1037">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="986">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="8" selection-start="2034" selection-end="2034" vertical-scroll-proportion="-1.3076923" vertical-offset="833" max-vertical-offset="1921">
+          <folding>
+            <element signature="e#852#968#0" expanded="false" />
+            <element signature="e#989#1357#0" expanded="false" />
+            <element signature="e#3350#5439#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="14" selection-start="922" selection-end="931" vertical-scroll-proportion="-16.346153" vertical-offset="0" max-vertical-offset="578">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="63" column="0" selection-start="3689" selection-end="3689" vertical-scroll-proportion="33.346153" vertical-offset="1938" max-vertical-offset="20043">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/js/custom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="279" column="49" selection-start="9097" selection-end="9110" vertical-scroll-proportion="-2.7358491" vertical-offset="4598" max-vertical-offset="5321">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentytwelve/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="4" selection-start="271" selection-end="271" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="29" selection-start="1820" selection-end="1820" vertical-scroll-proportion="-20.73077" vertical-offset="498" max-vertical-offset="1173">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="407" column="12" selection-start="10606" selection-end="10606" vertical-scroll-proportion="-13.115385" vertical-offset="6493" max-vertical-offset="7582">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/supergrid/category.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="6" selection-end="16" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <folding>
+            <element signature="e#850#980#0" expanded="false" />
+            <element signature="e#996#1393#0" expanded="false" />
+            <element signature="e#1408#2322#0" expanded="false" />
+            <element signature="e#2337#3757#0" expanded="false" />
+            <element signature="e#3772#6065#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-includes/general-template.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="26" selection-start="793" selection-end="793" vertical-scroll-proportion="0.40194714" vertical-offset="204" max-vertical-offset="41582">
+          <folding>
+            <marker date="1390815222058" expanded="true" signature="33825:34013" placeholder="SELECT YEAR(..." />
+            <marker date="1390815222058" expanded="true" signature="34741:34882" placeholder="SELECT YEAR(..." />
+            <marker date="1390815222058" expanded="true" signature="35485:35735" placeholder="SELECT YEAR(..." />
+            <marker date="1390815222058" expanded="true" signature="36566:36810" placeholder="SELECT DISTI..." />
+            <marker date="1390815222058" expanded="true" signature="38031:38095" placeholder="SELECT * FRO..." />
+            <marker date="1390815222058" expanded="true" signature="40208:40303" placeholder="SELECT 1 as ..$wpdb-&gt;posts WHERE..." />
+            <marker date="1390815222058" expanded="true" signature="41522:41736" placeholder="SELECT MONTH..." />
+            <marker date="1390815222058" expanded="true" signature="41765:41996" placeholder="SELECT MONTH..." />
+            <marker date="1390815222058" expanded="true" signature="42737:42743" placeholder="..." />
+            <marker date="1390815222058" expanded="true" signature="43863:43869" placeholder="..." />
+            <marker date="1390815222058" expanded="true" signature="43936:44171" placeholder="SELECT DISTI..$wpdb-&gt;posts WHERE..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

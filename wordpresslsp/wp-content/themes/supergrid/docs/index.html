@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Supergrid</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    
+	<!-- Google Web Fonts
+	================================================== -->
+	
+	<!-- Oswald -->
+	<link href='http://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
+	
+	<!-- Pacifico -->
+	<link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+
+    <!-- Le CSS
+    ================================================== -->
+    <!-- These are all the CSS files -->
+    
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link href="google-code-prettify/prettify.css" type="text/css" rel="stylesheet" />
+    
+    <style>
+    body {
+    	background: #f1f1f1 url("../images/Patterns/concrete_wall_.png");
+    	padding-top: 0px;
+    	margin: 0;
+    	height: 100%;
+    }
+    </style>
+    
+    <!-- Le javascript
+    ================================================== -->
+    <!-- These are all the javascript files -->
+    
+    <script src="js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="google-code-prettify/prettify.js"></script>
+    
+    <!-- Le preloader
+    ================================================== -->
+    <!-- Script to make sure everything loads -->
+    <script type="text/javascript">
+        //<![CDATA[
+            $(window).load(function() { // makes sure the whole site is loaded
+                $("#status").fadeOut(); // will first fade out the loading animation
+                $("#preloader").delay(350).fadeOut("slow"); // will fade out the white DIV that covers the website.
+            })
+        //]]>
+    </script>
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="../assets/ico/favicon.png">
+    
+</head>
+
+
+<body onload="prettyPrint()">	
+	<!-- Content
+	================================================== -->
+	<!-- Content starts here -->
+	
+	<div class="body-container">
+		<div class="container">
+		
+			<div class="row">
+				<div class="span12">
+					<div class="alert alert-success">
+						<strong>Online Documentation</strong><br>
+						Last update: 14th January 2013
+					</div>
+				</div>
+			</div>
+		
+			<div class="row">
+				
+			
+			
+			
+					<!-- Text Widget -->
+					<div style="position: fixed;" class="entry drop-shadow curved six-col span4 margin-bottom">
+						<h3>Documentation Menu</h3>
+				
+							<ul>
+								<li><a href="#thankyou">Thank You</a></li>
+								<li><a href="#included">What's Included</a></li>
+								<li><a href="#html">HTML Structure</a></li>
+								<li><a href="#css">Base CSS</a></li>
+								<li><a href="#javascript">Javascript</a></li>
+								<li>
+									<a href="#navigation">Navigation</a>
+									<ul>
+										<li><a href="#dropdown">Drop down</a></li>
+										<li><a href="#filter">Filter</a></li>
+									</ul>
+								</li>
+								<li><a href="#widgets">Widgets</a></li>
+								<li>
+									<a href="#elements">Elements</a>
+									<ul>
+										<li><a href="#typography">Typography</a></li>
+										<li><a href="#buttons">Buttons</a></li>
+										<li><a href="#alerts">Alerts</a></li>
+										<li><a href="#progress">Progress bar</a></li>
+									</ul>
+								</li>
+								
+								<li><a href="#googlemap">Google Maps API</a></li>
+								<li><a href="#sources">Sources and Credits</a></li>
+								<li><a href="#contact">Contact Me</a></li>
+							
+							</ul>
+				
+						<div class="stripes"></div>
+					</div>
+			
+				<!-- SLIDER -->
+				<div id="thankyou" class="entry-container span8 offset4 margin-bottom">
+				   	 <div class="entry drop-shadow curved ">
+				   		 
+				   		 <!-- Heading -->
+				   		 <h4>Thank you</h4>
+				   		 
+				   		 <!-- Description -->
+				   		 <p>Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email me or contact me via my <a href="http://themeforest.net/user/Jaynesh">user page</a>. Thanks so much! 
+				   		 </p>
+				   		 	
+				   		 <div class="stripes"></div>
+				   	</div>
+				 </div>
+				 
+				 <div id="included" class="entry-container span8 offset4 margin-bottom">
+				    	 <div class="entry drop-shadow curved ">
+				    		 
+				    		 <!-- Heading -->
+				    		 <h4>What's Included</h4>
+				    		 
+				    		 <!-- Description -->
+				    		 <ul>
+				    		 	<li><a href="thankyou"><strong>Index.html</strong> Markup for the main grid with all the widgets</a></li>
+				    		 	<li><a href="thankyou"><strong>portfolio-single.html</strong> Markup for portfolio single page</a></li>
+				    		 	<li><a href="thankyou"><strong>blog-single.html</strong> Markup for blog single page</a></li>
+				    		 	<li><a href="thankyou"><strong>starter.html</strong> Markup for a basic grid with no widgets</a></li>					    		 
+				    		 </ul>
+				    		 	
+				    		 <div class="stripes"></div>
+				    	</div>
+				  </div>
+				  
+				  <div id="html" class="entry-container span8 offset4 margin-bottom">
+				     	 <div class="entry drop-shadow curved ">
+				     		 
+				     		 <!-- Heading -->
+				     		 <h4>HTML Structure</h4>
+				     		 
+				     		 <p>
+					     		 This grid-based theme stores all your content in "Widgets". the starter.html file contains the basic markup for the grid without the widgets. You can quickly and easily add content by placing widgets in the "#container" div.
+				     		 </p>
+				     		 
+				     		 <p>Here is the markup for a basic widget:</p>
+				     		 
+				     		 <code class="prettyprint">
+				     		 
+				     		 &lt;div class="widget portfolio"><br>
+				     		 
+				     		 	&emsp;&emsp;&lt;div class="entry-container span4"><br>
+				     		 		&emsp;&emsp;&emsp;&emsp;&lt;div class="entry drop-shadow curved six-col"><br><br>
+				     		 	
+				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// CONTENT GOES HERE <br><br>
+				     		 			
+				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;div class="stripes">&lt;/div><br>
+				     		 		&emsp;&emsp;&emsp;&emsp;&lt;/div><br>
+				     		 	&emsp;&emsp;&lt;/div><br>
+				     		 	
+				     		 &lt;/div><br>
+
+
+				     		 </code>
+				     		 <br>
+				     		 
+				     		 <p>This theme comes with many pre-built widgets. The easy to use widgets also allow you to create your own custom widgets to display anything you like. To see how to implement these widgets into the theme, please see the Widget section.</p>
+				     		 
+				     		 <p>Alternatively you can use the index.html which is already populated with Widgets and modify and customise it to your preference.</p>
+				     		 
+				     		 
+				     		 <div class="alert alert-info">
+				     		 	<strong>Still confused?</strong>
+				     		 	Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+				     		 </div>
+				     		 
+		 	
+				     		 <div class="stripes"></div>
+				     	</div>
+				   </div>
+				   
+				   	  <div id="css" class="entry-container span8 offset4 margin-bottom">
+				   	     	 <div class="entry drop-shadow curved ">
+				   	     		 
+				   	     		 <!-- Heading -->
+				   	     		 <h4>CSS</h4>
+				   	     		 
+				   	     		 <p>
+				   	     		 This theme comes with multiple CSS files.
+				   	     		 </p>
+				   	     		 
+				   	     		 <ul>
+				   	     		 	<li><a href="thankyou"><strong>bootstrap.css</strong> Grid and bootstrap jquery scripts</a></li>
+				   	     		 	<li><a href="thankyou"><strong>style.css</strong> The main styling for the theme</a></li>
+				   	     		 	<li><a href="thankyou"><strong>flexslider.css</strong> CSS for the flexslider</a></li>
+				   	     		 	<li><a href="thankyou"><strong>isotope.css</strong> CSS for the isotope</a></li>		
+				   	     		 	<li><a href="thankyou"><strong>jquery.fancybox.css</strong> CSS for the fancybox</a></li>
+				   	     		 	<li><a href="thankyou"><strong>responsive-grid.css</strong> Responsive states for the grid</a></li>
+				   	     		 	<li><a href="thankyou"><strong>responsive.css</strong> Responsive states for the single pages</a></li>					    		 
+				   	     		 </ul>
+				   
+				   	     		 <div class="stripes"></div>
+				   	     	</div>
+				   	   </div>
+				   	   
+				   	   	  <div id="javascript" class="entry-container span8 offset4 margin-bottom">
+				   	   	     	 <div class="entry drop-shadow curved ">
+				   	   	     		 
+				   	   	     		 <!-- Heading -->
+				   	   	     		 <h4>Javascript</h4>
+				   	   	     		 
+				   	   	     		 <p>
+				   	   	     		 This theme comes with multiple CSS files.
+				   	   	     		 </p>
+				   	   	     		 
+				   	   	     		 <ul>
+				   	   	     		 	<li><a href="thankyou"><strong>bootstrap.min.js</strong> Bootstrap plugins</a></li>
+				   	   	     		 	<li><a href="thankyou"><strong>jquery.fancybox.js</strong> Script for fancybox</a></li>
+				   	   	     		 	<li><a href="thankyou"><strong>jquery.ba-bbq.min.js</strong> Hash history used for filtered navigation</a></li>
+				   	   	     		 	<li><a href="thankyou"><strong>jquery.infinitescroll.min.js</strong> For the load more feature</a></li>		
+				   	   	     		 	<li><a href="thankyou"><strong>jquery.manual-trigger.js</strong> For the load more feature</a></li>
+				   	   	     		 	<li><a href="thankyou"><strong>load-more.js</strong> For the load more feature</a></li>
+				   	   	     		 	<li><a href="thankyou"><strong>tinynav.min.js</strong> converts ul list into select dropdown for responsive navigation</a></li>
+				   	   	     		 	<li><a href="thankyou"><strong>maps.js</strong> Settings for the Google maps API</a></li>						    		 
+				   	   	     		 </ul>
+				   	   
+				   	   	     		 <div class="stripes"></div>
+				   	   	     	</div>
+				   	   	   </div>
+				   	   	   
+						<div id="navigation" class="entry-container span8 offset4 margin-bottom">
+							     	 <div class="entry drop-shadow curved ">
+							     		 
+							     		 <!-- Heading -->
+							     		 <h4>Navigation</h4>
+							     		 
+							     		 <p>
+							     		Here's a look at the basic html structure of the navigation.
+							     		 </p>
+							     		 
+	     		 			     		 <code class="prettyprint">
+	     		 				     		 
+	     		 				     		 &lt;div id="nav-collapse" class="collapse out"><br>
+	     		 				     		 	&emsp;&emsp;&lt;ul class="nav"><br><br>
+
+	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;li>&lt;a href="#filter=.blog">BLOG&lt;/a>&lt;/li><br>
+	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;li>&lt;a href="#filter=.grid-widget">GRID WIDGETS&lt;/a>&lt;/li><br>
+	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;li>&lt;a href="#filter=.shortcodes">ELEMENTS&lt;/a>&lt;/li><br>
+	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;li><&lt;a href="#filter=.contact">CONTACT&lt;/a>&lt;/li><br><br>
+	     		 				     		 		
+	     		 				     		 	&emsp;&emsp;&lt;/ul><br>
+	     		 				     		 &lt;/div>
+
+	     		 				     	</code>
+							     		 <br><br>
+						<div class="alert alert-info">
+							<strong>Still confused?</strong>
+							Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+						</div>
+							     		 <div class="stripes"></div>
+							     	</div>
+							   </div>
+							   
+							   <div id="dropdown" class="entry-container span7 offset5 margin-bottom">
+							   	     	 <div class="entry drop-shadow curved ">
+							   	     		 
+							   	     		 <!-- Heading -->
+							   	     		 <h4>Navigation - Drop Down</h4>
+							   	     		 
+							   	     		 <p>
+							   	     		 Here's a look at the basic html structure of the navigation with a drop down menu.
+							   	     		 </p>
+							   	     		 
+     		 	     		 			     		 <code class="prettyprint">
+     		 	     		 				     		 
+     		 	     		 				     		 &lt;div id="nav-collapse" class="collapse out"><br>
+     		 	     		 				     		 	&emsp;&emsp;&lt;ul class="nav"><br><br>
+     		 
+     		 	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;li><br>
+     		 	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;a href="#filter=.portfolio" class="selected"><br>
+     		 	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;span data-toggle="collapse" data-target="#blog"><br>
+     		 	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;/span>BLOG<br>
+     		 	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;/a><br>
+     		 	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;ul id="blog" class="collapse out"><br>
+     		 	     		 				     		 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;li>&lt;a href="#filter=.graphics">GRAPHICS&lt;/a>&lt;/li><br>
+     		 	     		 				     		 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;li>&lt;a href="#filter=.illustration">ILLUSTRATION&lt;/a>&lt;/li><br>
+     		 	     		 				     		 				&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;li>&lt;a href="#filter=.web">WEBDESIGN&lt;/a>&lt;/li>
+     		 	     		 				     		 			&emsp;&emsp;&emsp;<br>
+     		 	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;/ul><br>
+     		 	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;/li><br>
+     		 	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;li>&lt;a href="#filter=.grid-widget">GRID WIDGETS&lt;/a>&lt;/li><br>
+     		 	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;li>&lt;a href="#filter=.shortcodes">ELEMENTS&lt;/a>&lt;/li><br>
+     		 	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;li><&lt;a href="#filter=.contact">CONTACT&lt;/a>&lt;/li><br><br>
+     		 	     		 				     		 		
+     		 	     		 				     		 	&emsp;&emsp;&lt;/ul><br>
+     		 	     		 				     		 &lt;/div>
+     		 
+     		 	     		 				     	</code>
+     		 	     		 				     	<br><br>
+     		 	     		 				     	<p>What you can see here is basically another UL placed within an LI to create a drop down. A span element must also be added in the main <strong>a</strong> element, for the the responsive state. This span basically displays the drop down "on click" rather than "on hover"</p>
+     		 	     		 				     	
+     		 	     		 				     	<div class="alert alert-info">
+     		 	     		 				     		<strong>Heads up!</strong>
+     		 	     		 				     		Don't forget to apply a data-target in the span and reference it in the UL id.
+     		 	     		 				     	</div>
+     		 	     		 				     	
+     		 	     		 				     	
+							   
+							   					<div class="alert alert-info">
+							   						<strong>Still confused?</strong>
+							   						Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+							   					</div>
+							   	     		 <div class="stripes"></div>
+							   	     	</div>
+							  	</div>
+							  	
+							 
+							  		   
+							  		   <div id="filter" class="entry-container span7 offset5 margin-bottom">
+							  		   	     	 <div class="entry drop-shadow curved ">
+							  		   	     		 
+							  		   	     		 <!-- Heading -->
+							  		   	     		 <h4>Navigation - Filter</h4>
+							  		   	     		 
+							  		   	     		 <p>
+							  		   	     		 This theme uses a filter based navigation.
+							  		   	     		 </p>
+							  		   	     		 
+							  		   	     		 <h5>How does it work?</h5>
+							  		   	     		 
+							  		   	     		 <p>
+							  		   		     		 Every widget must have a category. This category is used by the navigation to filter the widgets.
+							  		   	     		 </p>
+							  		   	     		 
+							  		   	     		 <p>
+							  		   	     		 	 This widget has the category "portfolio"
+							  		   	     		 </p>
+							  		   	     		 
+							  		   	     		 <code class="prettyprint">
+							  		   	     		 				     		 
+	  		   	     		 				     		 &lt;div class="widget portfolio"><br>
+	  		   	     		 				     		 
+	  		   	     		 				     		 	&emsp;&emsp;&lt;div class="entry-container span8"><br>
+	  		   	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;div class="entry drop-shadow curved six-col"><br><br>
+	  		   	     		 				     		 	
+	  		   	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// CONTENT GOES HERE <br><br>
+	  		   	     		 				     		 			
+	  		   	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;div class="stripes">&lt;/div><br>
+	  		   	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;/div><br>
+	  		   	     		 				     		 	&emsp;&emsp;&lt;/div><br>
+	  		   	     		 				     		 	
+	  		   	     		 				     		 &lt;/div><br>
+	  		   	     		 
+	  		   	     		 
+	  		   	     		 				     	 </code>
+	  		   	     		 				     	 <br>
+	  		   	     		 				     	 <p>
+	  		   	     		 				     	 	 When this portfolio navigation button is clicked, it will filter all the widgets and display only the ones with the category "portfolio".
+	  		   	     		 				     	 </p>
+	  		   	     		 				     	 
+	  		   	     		 				     	 <code class="prettyprint">
+														&lt;li>&lt;a href="#filter=.portfolio">PORTFOLIO&lt;/a>&lt;/li><br>
+							  		   	     		 </code>
+							  		   	     		 <br>
+							  		   	     		 <h3>Multiple Categories</h3>
+							  		   	     		 <p>You can place as many categories as you want in the navigation or widget</p>
+							  		   	     		 
+							  		   	     		 <code class="prettyprint">
+							  		   	     		 &lt;li>&lt;a href="#filter=.portfolio,.about">PORTFOLIO&lt;/a>&lt;/li><br>
+							  		   	     		 </code>
+							  		   	     		 <br>
+		  		   	     		  					_______<br><br>
+		  		   	     		  	   	     		 <code class="prettyprint">
+		  		   	     		  	   	     		 				     		 
+		  		   	     		  				     		 &lt;div class="element portfolio about contact">
+
+		  		   	     		  				     	 </code>
+							  		   	     		 <br><br>
+							  		   	     		 <h4>Homepage</h4>
+							  		   	     		 <p>All widgets you want displayed on the homepage must have that "homepage" category</p>
+							  		   					<div class="alert alert-info">
+							  		   						<strong>Still confused?</strong>
+							  		   						Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+							  		   					</div>
+							  		   	     		 <div class="stripes"></div>
+							  		   	     	</div>
+							  		   	   </div>
+							  		   	   	   
+							  		   	   	   <div id="widgets" class="entry-container span8 offset4 margin-bottom">
+							  		   	   	   	     	 <div class="entry drop-shadow curved ">
+							  		   	   	   	     		 
+							  		   	   	   	     		 <!-- Heading -->
+							  		   	   	   	     		 <h4>Widgets</h4>
+							  		   	   	   	     		 
+							  		   	   	   	     		 <p>
+							  		   	   	   	     		 All content on this theme is handled by Widgets or "Gridgets" (Grid Widgets). 
+							  		   	   	   	     		 This theme comes with multiple ready built widgets. 
+							  		   	   	   	     		 </p>
+							  		   	   	   	     		 
+							  		   	   	   	     		 
+							  		   	   	   	     		 <div class="alert alert-danger">
+							  		   	   	   	     		 	The markup for all the widgets is available in </strong>docs/widgets.html</strong>
+							  		   	   	   	     		 </div>
+							  		   	   	   	     		 
+							  		   	   	   	     		 <div class="alert alert-warning">
+							  		   	   	   	     		 	You can either populate your own grid by using the Widget mark-up in 'docs/widget.html' and placing it in the 'starter.html' or you can use the already populated grid located in 'index.html'
+							  		   	   	   	     		 </div>
+							  		   	   	   	     		 
+							  		   	   	   	     		 <h4>Custom Widgets</h4>
+							  		   	   	   	     		  	     		 
+							  		   	   	   	     		  	     		 <p>
+							  		   	   	   	     		  	     		 This theme is very versatile. The possibilities for widgets are endless.
+							  		   	   	   	     		  	     		 Using the basic widget mark up:
+							  		   	   	   	     		  	     		 </p>
+							  		   	   	   	     		  	     		 
+							  		   	   	   	     		  	     		 <code class="prettyprint">
+							  		   	   	   	     		  	     		 				     		 
+  		   	   	   	     		  	     		 				     		 &lt;div class="element portfolio"><br>
+  		   	   	   	     		  	     		 				     		 
+  		   	   	   	     		  	     		 				     		 	&emsp;&emsp;&lt;div class="entry-container span4"><br>
+  		   	   	   	     		  	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;div class="entry drop-shadow curved six-col"><br><br>
+  		   	   	   	     		  	     		 				     		 	
+  		   	   	   	     		  	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;// CONTENT GOES HERE <br><br>
+  		   	   	   	     		  	     		 				     		 			
+  		   	   	   	     		  	     		 				     		 			&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&lt;div class="stripes">&lt;/div><br>
+  		   	   	   	     		  	     		 				     		 		&emsp;&emsp;&emsp;&emsp;&lt;/div><br>
+  		   	   	   	     		  	     		 				     		 	&emsp;&emsp;&lt;/div><br>
+  		   	   	   	     		  	     		 				     		 	
+  		   	   	   	     		  	     		 				     		 &lt;/div><br>
+  		   	   	   	     		  	     		 				     		 
+  		   	   	   	     		  	     		 				     	
+  		   	   	   	     		  	     		 
+  		   	   	   	     		  	     		 
+  		   	   	   	     		  	     		 				     		 </code>
+  		   	   	   	     		  	     		 				     		 
+  		   	   	   	     		  	     		 				     		 <br>
+  		   	   	   	     		  	     		 				     		 
+  		   	   	   	     		  	     		 				     		 <p>To adjust the size of the widget, change the span number. A double sized widget would have a span8.</p>
+  		   	   	   	     		  	     		 				     		
+							  		   	   	   	     		  	     		 
+							  		   	   	   	     		  	     		 <p>You can create many different types of widgets:</p>
+							  		   	   	   	     		  	     		 <ul>
+							  		   	   	   	     		 	 	     		 <li>Facebook widgets</li>
+							  		   	   	   	     		 	 	     		 <li>Twitter widgets</li>
+							  		   	   	   	     		 	 	     		 <li>Instagram widgets</li>
+							  		   	   	   	     		 
+							  		   	   	   	     		  	     		 </ul>
+							  		   	   	   	     		  				<p>All you have to do is use the basic widget mark up and add in your own content or embed codes</p>
+							  		   	   	   	     		 
+							  		   	   	   	     		 <div class="alert alert-info">
+							  		   	   	   	     		 	<strong>Still confused?</strong>
+							  		   	   	   	     		 	Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+							  		   	   	   	     		 </div>
+							  		   	   	   
+							  		   	   	   	     		 <div class="stripes"></div>
+							  		   	   	   	     	</div>
+							  		   	   	   	   </div>
+							  		   	   	   	   
+			
+							   	   
+							   	<div id="elements" class="entry-container span8 offset4 margin-bottom">
+							   	 	     	 <div class="entry drop-shadow curved ">
+							   	 	     		 
+							   	 	     		 <!-- Heading -->
+							   	 	     		 <h4>Elements</h4>
+							   	 	     		 
+							   	 	     		 <p>
+							   	 	     		 This theme comes with multiple elements to style and format your content.
+							   	 	     		 </p>
+
+							   	 	     		 <ul>
+							   		 	     		 <li>Typography</li>
+							   		 	     		 <li>Buttons</li>
+							   		 	     		 <li>Alerts</li>
+							   		 	     		 <li>Progress Bar</li>
+							   	 	     		 </ul>
+							   	 				<p>The next section will explain each of these in further detail.</p>
+							   	 	     		 <div class="stripes"></div>
+							   	 	     	</div>
+							   	 	  </div>
+							   	 	  
+							   	 	   	<div id="typography" class="entry-container span7 offset5 margin-bottom">
+							   	 	  		<div class="entry drop-shadow curved ">
+							   	 	  							   	 	     		 
+  							   	 	     		 <!-- Heading -->
+  							   	 	     		 <h4>Typography</h4>
+  							   	 	     		 
+  							   	 	     		 <p>
+  							   	 	     		For a simple two column layout, create a .row-fluid and add the appropriate number of .span* columns. As this is a 12-column grid, each .span* spans a number of those 12 columns, and should always add up to 12 for each row (or the number of columns in the parent).
+  							   	 	     		 </p>
+  							   	 	     		 
+  							   	 	     		 <code class="prettyprint">
+  							   	 	     		 
+  							   	 	     		 &lt;div class="row-fluid"><br>
+  							   	 	     		 	&emsp;&emsp;&lt;div class="row"><br>
+  							   	 	     		 		&emsp;&emsp;&emsp;&emsp;&lt;div class="span4">...&lt;/div><br>
+  							   	 	     		 		&emsp;&emsp;&emsp;&emsp;&lt;div class="span8">...&lt;/div><br>
+  							   	 	     		 	&emsp;&emsp;&lt;/div><br>
+  							   	 	     		 &lt;/div><br>
+
+  							   	 	     		 
+  							   	 	     		 </code>
+  							   	 	     		 <br><br>
+  												<div class="alert alert-info">
+  													<strong>Still confused?</strong>
+  													Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+  												</div>
+  							   	 	     		 <div class="stripes"></div>
+  							   	 	     	</div>
+  							   	 	  </div>
+  							   	 	  
+  							   	 	  	<div id="buttons" class="entry-container span7 offset5 margin-bottom">
+							   	 	  		<div class="entry drop-shadow curved ">
+							   	 	  							   	 	     		 
+							   	 	     		 <!-- Heading -->
+							   	 	     		 <h4>Buttons</h4>
+							   	 	     		 
+							   	 	     		 <p>
+							   	 	     		 This theme comes with 2 different styles of buttons in 8 different colors. To create a button simply add the class "button" or "button-rounded" along with the color.<br>Here is how the basic markup for the buttons look.
+							   	 	     		 </p>
+							   	 	     		 
+							   	 	     		  <code class="prettyprint">
+							   	 	     		   							   	 	     		 
+		   							   	 	     		 &lt;a class="button dark">Button&lt;/a><br><br>
+		   							   	 	     		 
+		   							   	 	     		 &lt;a class="button-rounded dark">Button&lt;/a>&lt;br>
+		 
+		   							   	 	      </code>
+		   							   	 	      <br><br>
+		   							   	 	      <h4>Colours (Colors)</h4>
+		   							   	 	      <ul>
+		   							   	 	      	<li>dark</li>
+		   							   	 	      	<li>light</li>
+		   							   	 	      	<li>blue</li>
+		   							   	 	      	<li>teal</li>
+		   							   	 	      	<li>green</li>
+		   							   	 	      	<li>red</li>
+		   							   	 	      	<li>orange</li>
+		   							   	 	      	<li>purple</li>
+		   							   	 	      
+		   							   	 	      </ul>
+												<div class="alert alert-info">
+													<strong>Still confused?</strong>
+													Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+												</div>
+							   	 	     		 <div class="stripes"></div>
+							   	 	     	</div>
+							   	 	  </div>
+							   	 	  
+							   	 	  	<div id="alerts" class="entry-container span7 offset5 margin-bottom">
+  							   	 	  		<div class="entry drop-shadow curved ">
+  							   	 	  							   	 	     		 
+  							   	 	     		 <!-- Heading -->
+  							   	 	     		 <h4>Alerts</h4>
+  							   	 	     		 
+  							   	 	     		 <p>
+  							   	 	     		 Alerts are a great way to give attention to something. You might want to warn the user of an error, warning or simple message providing information. <br> This is how the basic markup for the alerts look like.
+  							   	 	     		 </p>
+  							   	 	     		 
+  							   	 	     		 <code class="prettyprint">
+
+		   							   	 	     		 &lt;div class="alert alert-error"><br>
+		   							   	 	     		 	&emsp;&emsp;&lt;strong>Uh Oh!&lt;/strong><br>
+		   							   	 	     		 	&emsp;&emsp;Change a few things up and try submitting again.<br>
+		   							   	 	     		 &lt;/div>
+
+		   							   	 	      </code>
+		   							   	 	      <br><br>
+		   							   	 	      <p>The alerts come in three different styles:</p>
+		   							   	 	      
+		   							   	 	      <ul>
+		   							   	 	      	<li>alert-error</li>
+		   							   	 	      	<li>alert-success</li>
+		   							   	 	      	<li>alert-info</li>		   							   	 	      
+		   							   	 	      </ul>
+  											<div class="alert alert-info">
+  												<strong>Still confused?</strong>
+  												Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+  											</div>
+  							   	 	     		 <div class="stripes"></div>
+  							   	 	     	</div>
+  							   	 	  </div>
+  							   	 	  
+  							   	 	  <div id="progress" class="entry-container span7 offset5 margin-bottom">
+  							   	 	  		<div class="entry drop-shadow curved ">
+  							   	 	  							   	 	     		 
+  							   	 	     		 <!-- Heading -->
+  							   	 	     		 <h4>Progress bar</h4>
+  							   	 	     		 
+  							   	 	     		 <p>
+  							   	 	     		 Progress bars are great for various things such as using it to track and display the progress of your current project. <br> Here is how the basic markup for the progress bars look like.
+  							   	 	     		 </p>
+  							   	 	     		 
+	 						   	 	     		 <code class="prettyprint">
+	   							   	 	     		 
+	   							   	 	     		  &lt;div class="progress progress-info"><br>
+	   							   	 	     		 	 &emsp;&emsp;&lt;div class="bar" style="width: 20%"> &lt;/div><br>
+	   							   	 	     		  &lt;/div>
+
+	   							   	 	      </code>
+	   							   	 	      <br><br>
+	   							   	 	      <p>The progress bar comes in three different styles:</p>
+	   							   	 	      
+	   							   	 	      <ul>
+	   							   	 	      	<li>progress-info</li>
+	   							   	 	      	<li>progress-success</li>
+	   							   	 	      	<li>progress-warning</li>	
+	   							   	 	      	<li>progress-danger</li>	   							   	 	      
+	   							   	 	      </ul>
+													<div class="alert alert-info">
+														<strong>Still confused?</strong>
+														Send me a message via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a>
+													</div>
+  							   	 	     		 <div class="stripes"></div>
+  							   	 	     	</div>
+  							   	 	  </div>
+  							   	 	  
+  							   	 	    <div id="googlemap" class="entry-container span8 offset4 margin-bottom">
+							   	 	  		<div class="entry drop-shadow curved ">
+							   	 	  							   	 	     		 
+							   	 	     		 <!-- Heading -->
+							   	 	     		 <h4>Google Maps API</h4>
+							   	 	     		 
+							   	 	     		 <p>The 'Contact' page widget is powered by Google's powerful API.</p>
+							   	 	     		 
+							   	 	     		 <p>To active your maps you must sign up for <a href="https://developers.google.com/maps/">Google Maps API</a> and insert your API key into the header script file</p>
+							   	 	     		 
+							   	 	     		 <code class="prettyprint">
+							   	 	     		   							   	 	     		 
+   							   	 	     		 &lt;script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_GOES_HERE&amp;sensor=true">&lt;/script>
+
+   							   	 	     		 </code>
+   							   	 	     		 <br><br>
+   							   	 	     		 <p> All settings for the API are located in 'js/maps.js' </p>
+	
+							   	 	     		 <div class="stripes"></div>
+							   	 	     	</div>
+							   	 	 	 </div>
+  							   	 	  
+  							   	 	    <div id="sources" class="entry-container span8 offset4 margin-bottom">
+							   	 	  		<div class="entry drop-shadow curved ">
+							   	 	  							   	 	     		 
+							   	 	     		 <!-- Heading -->
+							   	 	     		 <h4>Sources and Credits</h4>
+							   	 	     		 
+							   	 	     		 <ul>
+							   	 	     		 	<li>Font - Oswald</li>
+							   	 	     		 	<li>Font - Pacifico</li>
+							   	 	     		 	<li>Example images - Daniel Nyari, Anton Kuryatnikov, Helder Oliveira, Soongyu Gwon, Ryan Welch, Matt Willcox, Artem</li>	
+							   	 	     		 	<li>Slider by WooThemes</li>	   							   	 	      
+							   	 	     		 </ul>
+
+							   	 	     		 <div class="stripes"></div>
+							   	 	     	</div>
+							   	 	  </div>
+							   	 	  
+							   	 	   <div id="contact" class="entry-container span8 offset4 margin-bottom">
+  							   	 	  		<div class="entry drop-shadow curved ">
+  							   	 	  							 
+  							   	 	  			<!-- Heading -->
+  							   	 	  			<h4>Contact Me</h4>
+  							   	 	  							   	 	     		 
+  							   	 	     		 <p>This theme comes with full support. You can contact me via my <a href="http://themeforest.net/user/Jaynesh">profile page.</a></p>
+  							   	 	     		 <p>I aim to respond to all queries within a matter of hours</p>
+  							   	 	    
+  							   	 	     	</div>
+  							   	 	  </div>
+							   	 	  				   	   	   
+				   	   	   
+				   	   	   
+		
+				
+			</div>
+			
+		</div>     
+	</div> <!-- #container -->
+	
+	
+	<!-- Footer
+	================================================== -->
+	<!-- Copyright & Social Buttons -->
+	
+	<div class="footer">
+		<ul>
+			<li class="left">© Copyright 2013 <a href="#">Supergrid</a></li>
+		
+			<li class="social-button right"><a rel="alternate" data-original-title="Facebook"><img src="img/social-icons/glyphicons_410_facebook.png" alt="" /></a></li>
+			<li class="social-button right"><a rel="alternate" data-original-title="Google+"><img src="img/social-icons/glyphicons_382_google_plus.png" alt=""/></a></li>
+			<li class="social-button right"><a rel="alternate" data-original-title="Twitter"><img src="img/social-icons/glyphicons_411_twitter.png" alt=""/></a></li>
+			<li class="social-button right"><a rel="alternate" data-original-title="Vimeo"><img src="img/social-icons/glyphicons_414_vimeo.png" alt="" /></a></li>
+			<li class="social-button right"><a rel="alternate" data-original-title="LinkedIn"><img src="img/social-icons/glyphicons_397_linked_in.png" alt="" /></a></li>
+			<li class="social-button right"><a rel="alternate" data-original-title="Dribble"><img src="img/social-icons/glyphicons_394_dribble.png" alt="" /></a></li>
+	
+		</ul>
+	</div>
+	
+	<!-- JQUERY (flexslider)
+	================================================== -->
+	<!-- Script for the awesome slider -->
+	
+	<script type="text/javascript">
+	  $(window).load(function() {
+	    $('.flexslider').flexslider({
+	    	animation: "slide",
+	    
+	    });
+	    
+	  });
+	</script>
+	
+	<!-- JQUERY (tooltips)
+	================================================== -->
+	<!-- Script for the awesome tooltips -->
+	
+	<script>
+	$("[rel=alternate]").tooltip()
+	</script>
+</body>
+</html>
